@@ -6,9 +6,7 @@ int main()
     char gender;
     float BMI=0;
     float HT,WT;
-
     printf("STUDENT'S DATA FOR SELECTION\n");
-
     printf("input in the format given below\n");
     printf("name of student :- ");
     scanf("%s",&stu);
@@ -20,19 +18,12 @@ int main()
     scanf("%f",&WT);
     BMI=WT/((HT)*(HT));
     printf("BMI of student : %0.2f",BMI);
-
-
-
-
     printf("\nname of student :- %c\n",stu);
     printf("gender of student :- %c\n",gender);
     printf("height of student :- %0.2f\n",HT);
     printf("weight of student :- %0.2f\n",WT);
     printf("BMI of student:- %0.2f\n",BMI);
     printf("\n");
-
-
-
     switch(gender)
     {
         case'M':
@@ -56,7 +47,8 @@ int main()
                 }
             break;
     }
-
+         return 0;
+}    
 
 
 
@@ -83,5 +75,5 @@ int main()
     //     }
     //     break;
     // }
-    return 0;
-}    
+    
+    
