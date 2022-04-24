@@ -52,28 +52,6 @@ int main()
 
 
 
-    // switch(gender)
-    // {
-    //     case'M':
-    //     if(BMI>22)
-    //     {
-    //         printf("You are Selected");
-    //     }
-    //     else
-    //     {
-    //         printf("You are not Selected");
-    //     }
-    //     break;
-    //     case'F':
-    //     if(BMI>20)
-    //     {
-    //         printf("You are selected");
-    //     }
-    //     else
-    //     {
-    //         printf("You are not Selected");
-    //     }
-    //     break;
-    // }
+    
     
     
